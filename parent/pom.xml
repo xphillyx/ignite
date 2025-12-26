@@ -101,7 +101,7 @@
         <jtidy.version>r938</jtidy.version>
         <kafka.version>2.0.1</kafka.version>
         <karaf.version>4.0.2</karaf.version>
-        <log4j.version>2.11.0</log4j.version>
+        <log4j.version>2.25.3</log4j.version>
         <lucene.bundle.version>7.4.0_1</lucene.bundle.version>
         <lucene.version>7.4.0</lucene.version>
         <lz4.version>1.5.0</lz4.version>
@@ -689,7 +689,7 @@
 [INFO] ------------------------------------------------------------------------
 [ERROR] You are trying to compile Apache Ignite with inappropriate JDK version!
 [ERROR] Detected JDK Version: ${java.runtime.version}
-[ERROR] JDK version should be 1.7.0-* or >= 1.8.0-u40.
+[ERROR] JDK version should be 1.7.0-* or &gt;= 1.8.0-u40.
                             </message>
                             <version>[1.7,1.8),[1.8.0-40,)</version>
                         </requireJavaVersion>
@@ -1228,7 +1228,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1241,7 +1241,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1255,7 +1255,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
